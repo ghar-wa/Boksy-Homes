@@ -1,0 +1,158 @@
+  .xyz{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:20;
+}
+  .form-inline input{
+    padding-right:210px;
+	padding-left:10px;
+    }
+	.form-control{
+	  float:left;
+	  padding-right: 30px;
+	}
+	#logo{
+			width:auto;
+			margin:5px;
+			padding-right:20px;
+			float: left;
+		}
+	#ist{
+			color:white;
+			font-size: 35px;
+			font-weight: bold;
+			margin-left: 20px;
+			font-family: cursive;
+		    }
+	#iist{
+			color:yellow;
+			font-size:35px;
+			font-weight: bold;
+			font-family: cursive;
+		
+		    }
+	img{
+		width: 100%;
+		height: auto;
+	}
+	
+  /*---------------------------------------------------------------main body------------------------------------------------------------*/
+  .container-fluid{
+	 	width:auto;
+		height:1000px;
+		background-position:center;
+		font-family:sans-serif;
+  }
+.form-box{
+	width: 380px;
+	height: 600px;
+	background-color: #4883ff;
+	padding-left: 20px; 
+	position:relative;
+	overflow: hidden;
+}
+.button-box{
+	width:220px;
+	margin: 35px auto;
+	position: relative;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding:10px 30px;
+	cursor:pointer;
+	
+	border:0;
+	
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: 000;
+	border-radius: 30px;
+	transition: .5s;
+}
+.social-icons{
+	margin:30 auto;
+	text-align: center;
+}
+.social-icons img{
+	width:30px;
+	margin:0 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor:pointer;
+	border-radius: 50px;
+	
+}
+.input-group{
+	top:180px;
+	position: absolute;
+	width:280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 20px;
+	margin:5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background-color: #fff ;
+	margin: 15px;
+	
+}
+.submit-btn{
+	width:85%;
+	padding:10px 30px;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+	border:0;
+	outline:none;
+	border-radius:30px;
+	
+}
+.check-box{
+	margin: 8px 10px 20px 10px;
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}
+	 @media (max-width:400px){
+	 .container-fluid{
+	 	width:450px;
+		height:800px;
+		background-position:center;
+		font-family:sans-serif;
+  }
+  .form-box{
+	width: 370px;
+	height: 600px;
+	background: #4883ff;;
+	position:relative;
+	margin-top: 20px;
+	margin-left:-35px
+	overflow: hidden;
+}
+.input-field{
+	width: 100%;
+	padding: 5px 20px;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background-color: #fff;
+	
+}
+}
+ 

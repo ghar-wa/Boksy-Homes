@@ -1,0 +1,108 @@
+     <!-- FOOTER -->
+     <footer id="footer">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2>Headquarter</h2>
+                              </div>
+                              <address>
+                                   <p>34 Gangaganj,Panki<br> Kanpur,208020</p>
+                              </address>
+
+                              <ul class="social-icon">
+                                   <li><a href="https://www.facebook.com/Boksy-homes-101318638150480/" class="fa fa-facebook-square" attr="facebook icon" style="color: #f79f24"></a></li>
+                                   <li><a href="https://www.youtube.com/channel/UCfPN3PkAkZYhZoYHdz9Z1YA" class="fa fa-youtube" style="color: #f79f24"></a></li>
+                                   <li><a href="https://www.instagram.com/boksyhomes/" class="fa fa-instagram" style="color: #f79f24"></a></li>
+                              </ul>
+
+                              <div class="copyright-text"> 
+                                   <p>Copyright &copy; 2020 Boksy Room Services</p>
+                                   
+                                   <!-- <p>Design: TemplateMo</p> -->
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2>Contact Info</h2>
+                              </div>
+                              <address>
+                                   <p>+91 6388515213, +91 6394784203</p>
+                                   <p><a href="mailto:boksyeasybooking@gmail.com">boksyeasybooking@gmail.com</a></p>
+                              </address>
+
+                              <div class="footer_menu">
+                                   <h2>Quick Links</h2>
+                                   <ul>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="#">Investor</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Refund Policy</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                         <div class="footer-info newsletter-form">
+                              <div class="section-title">
+                                   <h2>Get our mobile app for better experience</h2>
+                              </div>
+                              <div>
+                                   <div class="form-group">
+                                    <a href="https://exp.host/@synoder/sec-app" target="_blank">
+                                    <img src="/images/getiosapp.png" alt="App on Mobile mockup" style="border-radius: 5px;margin: 5px;width: 150px" /></a>
+                                    <a href="https://exp.host/@synoder/sec-app" target="_blank">
+                                    <img src="/images/getandapp.png" alt="App on Mobile mockup" style="border-radius: 5px;margin: 5px;width: 150px"/></a>
+                                        
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+<script src="/js/main.js"></script>
+<script src="js/jquery.js"></script>
+     <script src="jquery-ui/jquery-ui.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+       <script >
+
+
+  var cities=['LUCKNOW','KANPUR','PRAYAGRAJ','VARANASI','GORAKHPUR','AGRA','JHANSI'];
+    
+        $("#in").autocomplete({
+            source:cities
+        },{
+
+            autoFocus:true,
+            minLength:1
+        });
+         function onsubmitform()
+      {
+        if(document.getElementById('in').value=="kanpur" || document.getElementById('in').value=="KANPUR" )
+        {
+          document.getElementById('form-submit').action="product/kanpur.php";
+        }
+         else{
+          document.getElementById('form-submit').action="product/p.php";
+          
+        }
+
+      }
+      
+     
+       
+</script>
+</body>
+
+</html>
